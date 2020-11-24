@@ -2,11 +2,11 @@
 
 ## What is sweep?
 
-Sweep is a version of the more fabulous [Ferris](https://github.com/pierrechevalier83/ferris) by [Pierre Chevalier](https://github.com/pierrechevalier83/) that uses a daughter board like a promicro, elite-c, bit-c etc instead of usuing onboard components.
+Sweep is a version of the more fabulous [Ferris](https://github.com/pierrechevalier83/ferris) by [Pierre Chevalier](https://github.com/pierrechevalier83/) that uses a daughter board like a promicro, elite-c, bit-c, nice!nano etc. instead of using onboard components.
 
 ## What are the different types?
 
-There's only choc version of Sweeps, unlike the Ferris, which offers manny different versions for different switch types. 
+There's only choc version of Sweeps, unlike the Ferris, which offers many different versions for different switch types. 
 
 
 * Sweep Compact - this is based on the Ferris compact.
