@@ -1,0 +1,386 @@
+(pcb "/home/david/Projects/36keys/34Keys/Ferris Sweep Compact LOW/ferris-sweep-compact.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "5.1.8")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  88766.5 -15372.4  91159.2 -15632.1  93547.2 -15931.7
+            95929.9 -16271.2  98306.5 -16650.5  100677 -17069.4  103039 -17527.9
+            105394 -18025.8  107740 -18562.9  110077 -19139.2  112403 -19754.5
+            114720 -20408.5  117024 -21101.2  119318 -21832.3  121598 -22601.6
+            123865 -23408.9  124011 -23497.5  124132 -23616.5  124224 -23760
+            124281 -23920.3  124300 -24089.4  124300 -36080  124330 -36360.8
+            124399 -36634.6  124506 -36896  124648 -37139.7  124824 -37360.9
+            125028 -37555.3  125259 -37718.9  125509 -37848.4  125776 -37941.4
+            126053 -37995.9  126335 -38010.9  142240 -38008  142407 -38026.8
+            142565 -38082.3  142708 -38171.6  142826 -38290.4  142916 -38432.6
+            142971 -38591.1  142990 -38758  143002 -75184  142974 -76027.3
+            142904 -76868.1  142792 -77704.3  142638 -78533.8  142442 -79354.5
+            142205 -80164.3  141928 -80961.2  141611 -81743.1  141255 -82508.1
+            130748 -101101  130580 -101329  130381 -101530  130156 -101700
+            129908 -101836  129644 -101936  129368 -101996  129086 -102017
+            128804 -101996  128528 -101936  128264 -101836  128016 -101700
+            126457 -100789  124879 -99910.3  123283 -99065.1  121669 -98253.4
+            120039 -97475.7  118393 -96732.3  116732 -96023.5  115056 -95349.7
+            113367 -94711  111665 -94107.9  109950 -93540.5  108224 -93009.1
+            106487 -92513.9  102926 -91756  99356.4 -91038.1  95779.1 -90360.4
+            92194.3 -89722.9  88602.7 -89125.7  85004.5 -88569  81400.3 -88052.7
+            77790.5 -87577  74175.7 -87141.9  70556.1 -86747.4  66932.4 -86393.6
+            63304.9 -86080.6  59674.1 -85808.4  56040.5 -85577  52404.5 -85386.4
+            48766.6 -85236.7  45127.2 -85128  41486.9 -85060.1  37846 -85033.1
+            37561.6 -85021.4  37281.8 -84969.5  37012.1 -84878.3  36758.1 -84749.9
+            36524.9 -84586.7  36317.3 -84392.1  36139.3 -84170  35994.6 -83924.9
+            35886.2 -83661.7  35816.2 -83385.8  35786 -83102.8  35768.1 -33928.7
+            35915 -33537.6  36101.2 -33163.7  36324.9 -32810.9  36583.7 -32482.9
+            36874.7 -32183.2  37195 -31915  38443.4 -30860.4  39716.5 -29835.9
+            41013.6 -28841.8  42333.9 -27878.9  43676.8 -26947.7  45041.5 -26048.7
+            46427.1 -25182.3  47833 -24349.2  49258.2 -23549.7  50702.1 -22784.3
+            52163.7 -22053.4  53642.3 -21357.5  55137.1 -20697  56647.1 -20072.2
+            58171.5 -19483.5  59709.5 -18931.1  61260.2 -18415.5  62822.8 -17936.9
+            64396.2 -17495.6  65979.8 -17091.9  67572.4 -16725.9  69173.3 -16397.8
+            70781.6 -16108  72396.3 -15856.4  74016.5 -15643.3  75641.4 -15468.8
+            77269.9 -15332.9  78901.2 -15235.8  80534.3 -15177.6  82168.4 -15158.1
+            86369.8 -15152.7  88766.5 -15372.4)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Kailh:Kailh_PG1232
+      (place SW10 80000 -42670 front 0 (PN SW_PUSH))
+      (place SW2 44000 -42370 front 0 (PN SW_PUSH))
+      (place SW3 62000 -30140 front 0 (PN SW_PUSH))
+      (place SW5 98000 -30540 front 0 (PN SW_PUSH))
+      (place SW6 116000 -32420 front 0 (PN SW_PUSH))
+      (place SW8 44000 -59370 front 0 (PN SW_PUSH))
+      (place SW9 62000 -47140 front 0 (PN SW_PUSH))
+      (place SW11 98000 -47540 front 0 (PN SW_PUSH))
+      (place SW12 116000 -49420 front 0 (PN SW_PUSH))
+      (place SW15 62000 -64145 front 0 (PN SW_PUSH))
+      (place SW16 80000 -59670 front 0 (PN SW_PUSH))
+      (place SW17 98000 -64545 front 0 (PN SW_PUSH))
+      (place SW18 116000 -66420 front 0 (PN SW_PUSH))
+      (place SW14 44000 -76375 front 0 (PN SW_PUSH))
+      (place SW4 80000 -25680 front 0 (PN SW_PUSH))
+    )
+    (component kbd:ProMicro_v3
+      (place U1 134300 -56500 front 0 (PN ProMicro))
+    )
+    (component Kailh:ferris_broom
+      (place G*** 80300 -79150 back 351 (PN LOGO))
+    )
+    (component foostan:ResetSW
+      (place RSW1 126970 -77240 front 90 (PN Val**))
+    )
+    (component "kbd:MJ-4PP-9"
+      (place J1 142020 -78680 front 270 (PN "MJ-4PP-9"))
+    )
+  )
+  (library
+    (image Kailh:Kailh_PG1232
+      (outline (path signal 120  -5950 2950  5950 2950))
+      (outline (path signal 120  5950 2950  5950 -2950))
+      (outline (path signal 120  -5950 -2950  -5950 2950))
+      (outline (path signal 120  -6750 6250  6750 6250))
+      (outline (path signal 120  6750 6250  6750 -6250))
+      (outline (path signal 120  6750 -6250  -6750 -6250))
+      (outline (path signal 120  -6750 -6250  -6750 6250))
+      (outline (path signal 120  -2250 -2950  -2250 -4000))
+      (outline (path signal 120  -2250 -4000  2250 -4000))
+      (outline (path signal 120  2250 -4000  2250 -2950))
+      (outline (path signal 120  -2250 -2950  -5950 -2950))
+      (outline (path signal 120  2250 -2950  5950 -2950))
+      (outline (path signal 120  -9000 8500  -9000 -8500))
+      (outline (path signal 120  -9000 -8500  9000 -8500))
+      (outline (path signal 120  9000 -8500  9000 8500))
+      (outline (path signal 120  9000 8500  -9000 8500))
+      (pin Oval[A]Pad_4700x1000_um @1 0 -3500)
+      (pin Oval[A]Pad_1200x300_um (rotate 90) @2 -2200 -3500)
+      (pin Oval[A]Pad_1200x300_um (rotate 90) @3 2200 -3500)
+      (pin Oval[A]Pad_4700x300_um @4 0 -3950)
+      (pin Oval[A]Pad_1000x5900_um @5 5360 0)
+      (pin Oval[A]Pad_1000x5900_um @6 4590 0)
+      (pin Oval[A]Pad_1000x5900_um @7 4200 0)
+      (pin Oval[A]Pad_1000x5900_um @8 -4200 0)
+      (pin Oval[A]Pad_1000x5900_um @9 -4590 0)
+      (pin Oval[A]Pad_6100x300_um (rotate 90) @10 -5900 0)
+      (pin Oval[A]Pad_6100x300_um (rotate 90) @11 5900 0)
+      (pin Oval[A]Pad_12100x300_um @12 0 -2900)
+      (pin Oval[A]Pad_12100x300_um @13 0 2900)
+      (pin Oval[A]Pad_1000x5900_um @14 -5360 0)
+      (pin Oval[A]Pad_11850x5900_um @15 0 0)
+      (pin Round[A]Pad_1600_um 1 4580 -5100)
+      (pin Round[A]Pad_1600_um 2 -2000 -5400)
+      (pin Round[A]Pad_1600_um 1@1 -4580 -5100)
+      (pin Round[A]Pad_1600_um 2@1 2000 -5400)
+      (pin Round[A]Pad_1600_um 3 5300 4750)
+      (pin Round[A]Pad_1600_um 4 -5300 4750)
+    )
+    (image kbd:ProMicro_v3
+      (outline (path signal 150  8900 -14750  7890 -14750))
+      (outline (path signal 150  -8900 -14750  -7900 -14750))
+      (outline (path signal 150  8900 -13750  8900 -14750))
+      (outline (path signal 150  -8900 -13700  -8900 -14750))
+      (outline (path signal 150  8900 18300  7950 18300))
+      (outline (path signal 150  -8900 18300  -7900 18300))
+      (outline (path signal 150  8900 18300  8900 17300))
+      (outline (path signal 150  -8900 18300  -8900 17300))
+      (outline (path signal 150  -8900 -14750  -8900 18300))
+      (outline (path signal 150  8900 -14750  -8900 -14750))
+      (outline (path signal 150  8900 18300  8900 -14750))
+      (outline (path signal 150  -8900 18300  -3750 18300))
+      (outline (path signal 150  -3750 19600  3750 19600))
+      (outline (path signal 150  3750 19600  3750 18300))
+      (outline (path signal 150  -3750 19600  -3750 18299))
+      (outline (path signal 150  -3750 18300  3750 18300))
+      (outline (path signal 150  3760 18300  8900 18300))
+      (outline (path signal 150  -3750 21200  -3750 19900))
+      (outline (path signal 150  -3750 19900  3750 19900))
+      (outline (path signal 150  3750 19900  3750 21200))
+      (outline (path signal 150  3750 21200  -3750 21200))
+      (outline (path signal 150  -500 20850  500 20850))
+      (outline (path signal 150  500 20850  0 20200))
+      (outline (path signal 150  0 20200  -500 20850))
+      (outline (path signal 150  -350 20700  350 20700))
+      (outline (path signal 150  -250 20550  250 20550))
+      (outline (path signal 150  -150 20400  150 20400))
+      (pin Round[A]Pad_1524_um 1 7611.4 14478)
+      (pin Round[A]Pad_1524_um 2 7611.4 11938)
+      (pin Round[A]Pad_1524_um 3 7611.4 9398)
+      (pin Round[A]Pad_1524_um 4 7611.4 6858)
+      (pin Round[A]Pad_1524_um 5 7611.4 4318)
+      (pin Round[A]Pad_1524_um 6 7611.4 1778)
+      (pin Round[A]Pad_1524_um 7 7611.4 -762)
+      (pin Round[A]Pad_1524_um 8 7611.4 -3302)
+      (pin Round[A]Pad_1524_um 9 7611.4 -5842)
+      (pin Round[A]Pad_1524_um 10 7611.4 -8382)
+      (pin Round[A]Pad_1524_um 11 7611.4 -10922)
+      (pin Round[A]Pad_1524_um 12 7611.4 -13462)
+      (pin Round[A]Pad_1524_um 13 -7608.6 -13462)
+      (pin Round[A]Pad_1524_um 14 -7608.6 -10922)
+      (pin Round[A]Pad_1524_um 15 -7608.6 -8382)
+      (pin Round[A]Pad_1524_um 16 -7608.6 -5842)
+      (pin Round[A]Pad_1524_um 17 -7608.6 -3302)
+      (pin Round[A]Pad_1524_um 18 -7608.6 -762)
+      (pin Round[A]Pad_1524_um 19 -7608.6 1778)
+      (pin Round[A]Pad_1524_um 20 -7608.6 4318)
+      (pin Round[A]Pad_1524_um 21 -7608.6 6858)
+      (pin Round[A]Pad_1524_um 22 -7608.6 9398)
+      (pin Round[A]Pad_1524_um 23 -7608.6 11938)
+      (pin Round[A]Pad_1524_um 24 -7608.6 14478)
+    )
+    (image Kailh:ferris_broom
+    )
+    (image foostan:ResetSW
+      (outline (path signal 150  3000 -1500  3000 -1750))
+      (outline (path signal 150  3000 -1750  -3000 -1750))
+      (outline (path signal 150  -3000 -1750  -3000 -1500))
+      (outline (path signal 150  -3000 1500  -3000 1750))
+      (outline (path signal 150  -3000 1750  3000 1750))
+      (outline (path signal 150  3000 1750  3000 1500))
+      (outline (path signal 150  -3000 -1750  3000 -1750))
+      (outline (path signal 150  3000 -1750  3000 -1500))
+      (outline (path signal 150  -3000 -1750  -3000 -1500))
+      (outline (path signal 150  -3000 1750  -3000 1500))
+      (outline (path signal 150  -3000 1750  3000 1750))
+      (outline (path signal 150  3000 1750  3000 1500))
+      (pin Round[A]Pad_2000_um 1 3250 0)
+      (pin Round[A]Pad_2000_um 2 -3250 0)
+    )
+    (image "kbd:MJ-4PP-9"
+      (outline (path signal 150  -4750 -12000  -4750 0))
+      (outline (path signal 150  1250 -12000  -4750 -12000))
+      (outline (path signal 150  1250 0  1250 -12000))
+      (outline (path signal 150  -4750 0  1250 0))
+      (outline (path signal 150  -3000 0  3000 0))
+      (outline (path signal 150  3000 0  3000 -12000))
+      (outline (path signal 150  3000 -12000  -3000 -12000))
+      (outline (path signal 150  -3000 -12000  -3000 0))
+      (pin Oval[A]Pad_1700x2500_um D -3850 -10300)
+      (pin Oval[A]Pad_1700x2500_um A 350 -11800)
+      (pin Oval[A]Pad_1700x2500_um B -3850 -3300)
+      (pin Oval[A]Pad_1700x2500_um C -3850 -6300)
+      (pin Oval[A]Pad_1700x2500_um B@1 2100 -3300)
+      (pin Oval[A]Pad_1700x2500_um C@1 2100 -6300)
+      (pin Oval[A]Pad_1700x2500_um D@1 2100 -10300)
+      (pin Oval[A]Pad_1700x2500_um A@1 -2100 -11800)
+      (keepout "" (circle F.Cu 1200 -1750 -8500))
+      (keepout "" (circle B.Cu 1200 -1750 -8500))
+      (keepout "" (circle F.Cu 1200 -1750 -1500))
+      (keepout "" (circle B.Cu 1200 -1750 -1500))
+      (keepout "" (circle F.Cu 1200 0 -1500))
+      (keepout "" (circle B.Cu 1200 0 -1500))
+      (keepout "" (circle F.Cu 1200 0 -8500))
+      (keepout "" (circle B.Cu 1200 0 -8500))
+    )
+    (padstack Round[A]Pad_1524_um
+      (shape (circle F.Cu 1524))
+      (shape (circle B.Cu 1524))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1600_um
+      (shape (circle F.Cu 1600))
+      (shape (circle B.Cu 1600))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2000_um
+      (shape (circle F.Cu 2000))
+      (shape (circle B.Cu 2000))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_4700x1000_um
+      (shape (path F.Cu 1000  -1850 0  1850 0))
+      (shape (path B.Cu 1000  -1850 0  1850 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1000x5900_um
+      (shape (path F.Cu 1000  0 -2450  0 2450))
+      (shape (path B.Cu 1000  0 -2450  0 2450))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1700x2500_um
+      (shape (path F.Cu 1700  0 -400  0 400))
+      (shape (path B.Cu 1700  0 -400  0 400))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_4700x300_um
+      (shape (path F.Cu 300  -2200 0  2200 0))
+      (shape (path B.Cu 300  -2200 0  2200 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_6100x300_um
+      (shape (path F.Cu 300  -2900 0  2900 0))
+      (shape (path B.Cu 300  -2900 0  2900 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1200x300_um
+      (shape (path F.Cu 300  -450 0  450 0))
+      (shape (path B.Cu 300  -450 0  450 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_12100x300_um
+      (shape (path F.Cu 300  -5900 0  5900 0))
+      (shape (path B.Cu 300  -5900 0  5900 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_11850x5900_um
+      (shape (path F.Cu 5900  -2975 0  2975 0))
+      (shape (path B.Cu 5900  -2975 0  2975 0))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net row0
+      (pins SW16-1 SW16-1@1 U1-7)
+    )
+    (net row1
+      (pins SW17-1 SW17-1@1 U1-8)
+    )
+    (net row2
+      (pins SW18-1 SW18-1@1 U1-9)
+    )
+    (net row3
+      (pins SW2-1 SW2-1@1 U1-10)
+    )
+    (net GND
+      (pins SW10-2 SW10-2@1 SW2-2 SW2-2@1 SW3-2 SW3-2@1 SW5-2 SW5-2@1 SW6-2 SW6-2@1
+        SW8-2 SW8-2@1 SW9-2 SW9-2@1 SW11-2 SW11-2@1 SW12-2 SW12-2@1 SW15-2 SW15-2@1
+        SW16-2 SW16-2@1 SW17-2 SW17-2@1 SW18-2 SW18-2@1 SW14-2 SW14-2@1 SW4-2 SW4-2@1
+        U1-3 U1-4 U1-23 RSW1-2 J1-C J1-C@1)
+    )
+    (net VCC
+      (pins U1-21 J1-D J1-D@1)
+    )
+    (net col0
+      (pins SW6-1 SW6-1@1 U1-20)
+    )
+    (net col1
+      (pins SW5-1 SW5-1@1 U1-19)
+    )
+    (net col2
+      (pins SW4-1 SW4-1@1 U1-18)
+    )
+    (net col3
+      (pins SW3-1 SW3-1@1 U1-17)
+    )
+    (net col4
+      (pins SW8-1 SW8-1@1 U1-16)
+    )
+    (net col5
+      (pins SW9-1 SW9-1@1 U1-15)
+    )
+    (net LED
+      (pins SW12-1 SW12-1@1 U1-1)
+    )
+    (net data
+      (pins U1-2 J1-B J1-B@1)
+    )
+    (net reset
+      (pins U1-22 RSW1-1)
+    )
+    (net SCL
+      (pins SW15-1 SW15-1@1 U1-6)
+    )
+    (net SDA
+      (pins SW14-1 SW14-1@1 U1-5)
+    )
+    (net "Net-(U1-Pad24)"
+      (pins U1-24)
+    )
+    (net "Net-(J1-PadA)"
+      (pins J1-A J1-A@1)
+    )
+    (net "Net-(U1-Pad14)"
+      (pins SW10-1 SW10-1@1 U1-14)
+    )
+    (net "Net-(U1-Pad13)"
+      (pins SW11-1 SW11-1@1 U1-13)
+    )
+    (net "Net-(U1-Pad12)"
+      (pins U1-12)
+    )
+    (net "Net-(U1-Pad11)"
+      (pins U1-11)
+    )
+    (class kicad_default "" GND LED "Net-(J1-PadA)" "Net-(U1-Pad11)" "Net-(U1-Pad12)"
+      "Net-(U1-Pad13)" "Net-(U1-Pad14)" "Net-(U1-Pad24)" SCL SDA VCC col0
+      col1 col2 col3 col4 col5 data reset row0 row1 row2 row3
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
