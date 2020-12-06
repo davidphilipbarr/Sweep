@@ -11,6 +11,7 @@ There's only choc version of Sweeps, unlike the Ferris, which offers many differ
 
 * Sweep Compact - this is based on the Ferris compact.
 * Sweep Compact Low - this uses pg1232 or 'choc minis' rather than the standard choc v1 switch.
+* Sweep Compact BLE - basically the compact, with the trrs removed and reversable controller footprint.
 * Sweep34 - this was the OG Sweep, before there was a choc spaced Ferris, I consider it retired now, and would use the Sweep Compact.
 
 ## Firmware
