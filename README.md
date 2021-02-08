@@ -23,6 +23,7 @@ The firmware can be found with the Ferris firmware as part of QMK.
 To build a Sweep you will need:
 
 * 2x promicro compatible boards
+  * **Important:**  On the *left* half of the Sweep the promicro's USB port must face *towards* the PCB, and on the *right* half the USB port must face *away* from the PCB (so that the promicro's components are visible).
 * 34 choc switches
 * 2x reset switches (optional)
 * Some little rubber feet/bumpers
