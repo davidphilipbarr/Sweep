@@ -27,12 +27,16 @@ Firmware for zmk and bluemicro_ble is called "Cradio".
 To build a Sweep you will need:
 
 * 2x promicro compatible boards or 2 nice!nanos.
-* Sweep 2 controllers face down. 
 * 34 choc switches
 * 2x reset switches (optional)
 * Some little rubber feet/bumpers
-* Optional for sweep 2 2x power switches (MSK 12C02)
-* **Important:**  On the Sweep Compact *left* half of the Sweep the promicro's USB port must face *towards* the PCB, and on the *right* half the USB port must face *away* from the PCB (so that the promicro's components are visible).
+* Optional for sweep2 2x power switches (MSK 12C02)
+* **Important:**  On the Sweep Compact *left* half of the Sweep the promicro's USB port must face *towards* the PCB, and on the *right* half the USB port must face *away* from the PCB (so that the promicro's components are visible). Sweep 2 controllers both face down. 
+
+
+## How do I make this thing?
+
+I, lazily, haven't made any documentation, but thankfully there is [this tutorial on youtube](https://www.youtube.com/watch?v=fBPu7AyDtkM) by kyek.
 
 ## Who made this?
 
