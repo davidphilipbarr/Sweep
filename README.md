@@ -31,6 +31,7 @@ To build a Sweep you will need:
 * 34 choc switches
 * 2x reset switches (optional)
 * Some little rubber feet/bumpers
+* Optional for sweep 2 2x power switches (MSK 12C02)
 * **Important:**  On the Sweep Compact *left* half of the Sweep the promicro's USB port must face *towards* the PCB, and on the *right* half the USB port must face *away* from the PCB (so that the promicro's components are visible).
 
 ## Who made this?
