@@ -6,19 +6,20 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 
 ## What are the different types?
 
-| Device | Bluetooth Support<sup>[1]</sup> | On/Off Switch | Reversible PCB | Choc V1 | Choc V2 | Choc Mini | MX & Alps | Tenting<sup>[2]</sup> |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Sweep2 | ✔ | ✔ |  | ✔ |  |  | | ✔ |
-| Sweep High | ✔ | ✔ | | | | | ✔ | ✔ |
-| Sweep Compact | ✔ | | ✔ | ✔ | | | | |
-| Sweep Compact Low | ✔ | | ✔ | | | ✔ | | |
-| Sweep Compact BLE | ✔ | | ✔ | ✔ | | | | |
+| Device | Bluetooth Support<sup>[1]</sup> | On/Off Switch | Reversible PCB | Choc V1 | Choc V2 | Choc Mini | MX & Alps | Choc Spacing<sup>[2]</sup> | Tenting<sup>[3]</sup> |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Sweep2            | ✔ | ✔ |   | ✔ |   |   |   | ✔ | ✔ |
+| Sweep High        | ✔ | ✔ |   | ✔ | ✔ |   | ✔ |   | ✔ |
+| Sweep Compact     | ✔ |   | ✔ | ✔ |   |   |   | ✔ |   |
+| Sweep Compact Low | ✔ |   | ✔ |   |   | ✔ |   | ✔ |   |
+| Sweep Compact BLE | ✔ |   | ✔ | ✔ |   |   |   | ✔ |   |
 
 *<sup>[1]</sup> It simply means that it supports the nice!nano. An on/off switch is recommended for bluetooth*  
-*<sup>[2]</sup> Supports splitkb's [tenting puck](https://splitkb.com/products/tenting-puck?_pos=1&_psq=tenting%20&_ss=e&_v=1.0)*
+*<sup>[2]</sup> Choc spaced boards have the switches in a tighter grid. This provides a better final look but is only compatible with some choc keycaps (e.g. MBK)*  
+*<sup>[3]</sup> Supports splitkb's [tenting puck](https://splitkb.com/products/tenting-puck?_pos=1&_psq=tenting%20&_ss=e&_v=1.0)*
 
 * Sweep2 - Recommended Choc v1 board with all the features.
-* Sweep High - Same as the Sweep2 but supports MX instead of Chocs.
+* Sweep High - Same as the Sweep2 but trades choc spacing for compatibility with more switches and keycaps.
 * Sweep Compact - Recommended if you want a reversible PCB with Choc v1 support.
 * Sweep Compact Low - The only version that supports Choc minis.
 * Sweep Compact BLE - Same as the compact but without the TRRS Jack footprint.
