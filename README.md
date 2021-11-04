@@ -6,13 +6,23 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 
 ## What are the different types?
 
-There's only choc version of Sweeps, unlike the Ferris, which offers many different versions for different switch types. 
+| Device | Bluetooth Support<sup>[1]</sup> | On/Off Switch | Reversible PCB | Choc V1 | Choc V2 | Choc Mini | MX & Alps | Tenting<sup>[2]</sup> |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Sweep2 | ✔ | ✔ |  | ✔ |  |  | | ✔ |
+| Sweep High | ✔ | ✔ | ✔ | | | | ✔ | ✔ |
+| Sweep Compact | ✔ | | ✔ | ✔ | | | | |
+| Sweep Compact Low | ✔ | | ✔ | | | ✔ | | |
+| Sweep Compact BLE | ✔ | | ✔ | ✔ | | | | |
 
-* Sweep2 - this superceeds the compact and possibly the compact ble, it is compact with power switches and puck support.
-* Sweep Compact - this is based on the Ferris compact.
-* Sweep Compact Low - this uses pg1232 or 'choc minis' rather than the standard choc v1 switch.
-* Sweep Compact BLE - basically the compact, with the trrs removed and reversable controller footprint.
-* Sweep34 - this was the OG Sweep, before there was a choc spaced Ferris, I consider it retired now, and would use the Sweep Compact.
+*<sup>[1]</sup> It simply means that it supports the nice!nano. An on/off switch is recommended for bluetooth*  
+*<sup>[2]</sup> Supports splitkb's [tenting puck](https://splitkb.com/products/tenting-puck?_pos=1&_psq=tenting%20&_ss=e&_v=1.0)*
+
+* Sweep2 - Recommended Choc v1 board with all the features.
+* Sweep High - Same as the Sweep2 but supports MX instead of Chocs.
+* Sweep Compact - Recommended if you want a reversible PCB with Choc v1 support.
+* Sweep Compact Low - The only version that supports Choc minis.
+* Sweep Compact BLE - Same as the compact but without the TRRS Jack footprint.
+* Sweep34 [deprecated] - This was the OG Sweep, before there was a choc spaced Ferris. Use the Sweep Compact instead.
 
 ## Firmware
 
@@ -36,7 +46,7 @@ To build a Sweep you will need:
 
 ## How do I make this thing?
 
-I, lazily, haven't made any documentation, but thankfully there is [this tutorial on youtube](https://www.youtube.com/watch?v=fBPu7AyDtkM) by kyek.
+I, lazily, haven't made any documentation, but thankfully there is [this tutorial on youtube](https://www.youtube.com/watch?v=fBPu7AyDtkM) by Kyek.
 
 ## Who made this?
 
