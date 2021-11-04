@@ -9,7 +9,7 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 | Device | Bluetooth Support<sup>[1]</sup> | On/Off Switch | Reversible PCB | Choc V1 | Choc V2 | Choc Mini | MX & Alps | Tenting<sup>[2]</sup> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Sweep2 | ✔ | ✔ |  | ✔ |  |  | | ✔ |
-| Sweep High | ✔ | ✔ | ✔ | | | | ✔ | ✔ |
+| Sweep High | ✔ | ✔ | | | | | ✔ | ✔ |
 | Sweep Compact | ✔ | | ✔ | ✔ | | | | |
 | Sweep Compact Low | ✔ | | ✔ | | | ✔ | | |
 | Sweep Compact BLE | ✔ | | ✔ | ✔ | | | | |
