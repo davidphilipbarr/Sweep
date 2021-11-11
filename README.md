@@ -26,7 +26,7 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
   * ⚠ *Left* half of the Sweep the promicro's USB port must face *towards* the PCB, and on the *right* half the USB port must face *away* from the PCB (so that the promicro's components are visible)
 * Sweep Compact Low - The only version that supports Choc minis.
 * Sweep Compact BLE - Same as the compact but without the TRRS Jack footprint.
-* Sweep34 [deprecated] - This was the OG Sweep, before there was a choc spaced Ferris. Use the Sweep Compact instead.
+* Sweep34 [deprecated] - This was the OG Sweep, before there was a choc spaced Ferris. Use the Sweep Half Swept instead.
 
 ## Firmware
 
