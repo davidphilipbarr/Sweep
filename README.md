@@ -6,9 +6,9 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 
 ## What are the different types?
 
-| Device | Bluetooth Support<sup>[1]</sup> | On/Off Switch | Reversible PCB | Choc V1 | Choc V2.x | Choc Mini | MX & Alps | Choc Spacing<sup>[2]</sup> | Tenting<sup>[3]</sup> |
+| Device | Bluetooth Support<sup>[1]</sup> | On/Off Switch | Reversible PCB | Choc V1 | Choc V2 | Choc Mini | MX & Alps | Choc Spacing<sup>[2]</sup> | Tenting<sup>[3]</sup> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Sweep2            | ✔ | ✔ |   | ✔ |   |   |   | ✔ | ✔ |
+| Sweep2.x            | ✔ | ✔ |   | ✔ |   |   |   | ✔ | ✔ |
 | Sweep High        | ✔ | ✔ |   | ✔ | ✔ |   | ✔ |   | ✔ |
 | Sweep Half Swept     | ✔ | ✔ | ✔ | ✔ |   |   |   | ✔ | ✔ |
 | Sweep Compact     | ✔ |   | ✔ | ✔ |   |   |   | ✔ |   |
