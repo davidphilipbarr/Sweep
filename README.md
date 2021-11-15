@@ -54,3 +54,5 @@ I, lazily, haven't made any documentation, but thankfully there is [this tutoria
 * Pierre Chevalier
 * David Barr
 * [Ibnu Daru Aji](https://github.com/ibnuda/)
+* [Duccio](https://github.com/duckyb)
+
