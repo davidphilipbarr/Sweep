@@ -8,12 +8,10 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 
 | Device | Bluetooth Support<sup>[1]</sup> | On/Off Switch | Reversible PCB | Choc V1 | Choc V2 | Choc Mini | MX & Alps | Choc Spacing<sup>[2]</sup> | Tenting<sup>[3]</sup> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Sweep2.x            | ✔ | ✔ |   | ✔ |   |   |   | ✔ | ✔ |
+| Sweep2.x          | ✔ | ✔ |   | ✔ |   |   |   | ✔ | ✔ |
 | Sweep High        | ✔ | ✔ |   | ✔ | ✔ |   | ✔ |   | ✔ |
-| Sweep Half Swept     | ✔ | ✔ | ✔ | ✔ |   |   |   | ✔ | ✔ |
-| Sweep Compact     | ✔ |   | ✔ | ✔ |   |   |   | ✔ |   |
+| Sweep Half Swept  | ✔ | ✔ | ✔ | ✔ |   |   |   | ✔ | ✔ |
 | Sweep Compact Low | ✔ |   | ✔ |   |   | ✔ |   | ✔ |   |
-| Sweep Compact BLE | ✔ |   | ✔ | ✔ |   |   |   | ✔ |   |
 
 *<sup>[1]</sup> It simply means that it supports the nice!nano. An on/off switch is recommended for bluetooth*  
 *<sup>[2]</sup> Choc spaced boards have the switches in a tighter grid. This provides a better final look but is only compatible with some choc keycaps (e.g. MBK)*  
@@ -22,11 +20,7 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 * Sweep2 - Recommended Choc v1 board with all the features.
 * Sweep High - Same as the Sweep2 but trades choc spacing for compatibility with more switches and keycaps.
 * Sweep Half Swept - Half of a Sweep2 with double pro-micro footprint (letting you avoid having one daughter-board flipped upside-down)
-* Sweep Compact - A reversible sweep with Choc v1 support.
-  * ⚠ *Left* half of the Sweep the promicro's USB port must face *towards* the PCB, and on the *right* half the USB port must face *away* from the PCB (so that the promicro's components are visible)
 * Sweep Compact Low - The only version that supports Choc minis.
-* Sweep Compact BLE - Same as the compact but without the TRRS Jack footprint.
-* Sweep34 [deprecated] - This was the OG Sweep, before there was a choc spaced Ferris. Use the Sweep Half Swept instead.
 
 ## Firmware
 
