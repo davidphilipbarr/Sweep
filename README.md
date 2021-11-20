@@ -24,9 +24,9 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 
 ## Firmware
 
-The firmware can be found with the Ferris firmware as part of QMK. 
+The firmware can be found [with the Ferris  firmware as part of QMK](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ferris/sweep). 
 
-Firmware for zmk and bluemicro_ble is called "Cradio".
+Firmware for zmk and bluemicro_ble is called ["Cradio"](https://zmk.dev/docs/hardware/).
 
 ## BOM
 
