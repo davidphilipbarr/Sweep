@@ -1,5 +1,7 @@
 # Sweep
 
+![](/gallery/sweep2-splash.jpg)
+
 ## What is sweep?
 
 Sweep is a version of the more fabulous [Ferris](https://github.com/pierrechevalier83/ferris) by [Pierre Chevalier](https://github.com/pierrechevalier83/) that uses a daughter board like a promicro, elite-c, bit-c, nice!nano etc. instead of using onboard components.

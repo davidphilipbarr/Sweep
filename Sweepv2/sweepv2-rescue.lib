@@ -1,6 +1,30 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# AudioJack4dpb-tokas_bp
+#
+DEF AudioJack4dpb-tokas_bp J 0 20 Y Y 1 F N
+F0 "J" 0 350 50 H V C CNN
+F1 "AudioJack4dpb-tokas_bp" 0 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
+DRAW
+S -250 -200 -300 -300 0 1 10 F
+S 100 150 -250 -300 0 1 10 f
+P 4 0 1 10 0 -200 25 -225 50 -200 100 -200 N
+P 5 0 1 10 -225 -200 -200 -225 -175 -200 -175 100 100 100 N
+P 5 0 1 10 -75 -200 -50 -225 -25 -200 -25 -100 100 -100 N
+P 5 0 1 10 100 0 -100 0 -100 -200 -125 -225 -150 -200 N
+X ~ A 200 -200 100 L 50 50 1 1 P
+X ~ B 200 100 100 L 50 50 1 1 P
+X ~ C 200 0 100 L 50 50 1 1 P
+X ~ D 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # ProMicro-kbd-bigblackpill-34key-rescue
 #
 DEF ProMicro-kbd-bigblackpill-34key-rescue U 0 40 Y Y 1 F N
