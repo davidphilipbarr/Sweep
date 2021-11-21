@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.8)
 
   (general
     (thickness 1.6)
@@ -67,7 +67,7 @@
     (pad_drill 0.8128)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 62.23 78.74)
-    (visible_elements 7FFFFFFF)
+    (visible_elements FFFFEFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions true)
@@ -3819,7 +3819,7 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 147.701 106.71175) (xy 31.75 106.3625) (xy 31.496 12.954) (xy 147.574 12.35075)
+        (xy 153.67 118.618) (xy 27.432 98.044) (xy 31.496 12.954) (xy 161.798 10.414)
       )
     )
     (filled_polygon
@@ -4861,7 +4861,7 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 149.225 10.31875) (xy 150.01875 108.74375) (xy 29.36875 108.74375) (xy 28.575 11.1125)
+        (xy 158.242 12.954) (xy 154.178 107.188) (xy 27.94 100.584) (xy 29.718 5.08)
       )
     )
     (filled_polygon
