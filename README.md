@@ -15,20 +15,14 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 | Sweep Half Swept  | ✔ | ✔ | ✔ | ✔ |   |   |   | ✔ | ✔ |
 | Sweep Compact Low | ✔ |   | ✔ |   |   | ✔ |   | ✔ |   |
 
-*<sup>[1]</sup> It simply means that it supports the nice!nano. An on/off switch is recommended for bluetooth*  
-*<sup>[2]</sup> Choc spaced boards have the switches in a tighter grid. This provides a better final look but is only compatible with some choc keycaps (e.g. MBK)*  
+*<sup>[1]</sup> It simply means that it supports the nice!nano. An on/off switch is recommended for bluetooth*
+*<sup>[2]</sup> Choc spaced boards have the switches in a tighter grid. This provides a better final look but is only compatible with some choc keycaps (e.g. MBK)*
 *<sup>[3]</sup> Supports splitkb's [tenting puck](https://splitkb.com/products/tenting-puck?_pos=1&_psq=tenting%20&_ss=e&_v=1.0)*
 
 * Sweep2 - Recommended Choc v1 board with all the features.
 * Sweep High - Same as the Sweep2 but trades choc spacing for compatibility with more switches and keycaps.
 * Sweep Half Swept - Half of a Sweep2 with double pro-micro footprint (letting you avoid having one daughter-board flipped upside-down)
 * Sweep Compact Low - The only version that supports Choc minis.
-
-## Firmware
-
-The firmware can be found [with the Ferris  firmware as part of QMK](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ferris/sweep). 
-
-Firmware for zmk and bluemicro_ble is called ["Cradio"](https://zmk.dev/docs/hardware/).
 
 ## BOM
 
@@ -44,6 +38,12 @@ To build a Sweep you will need:
 ## How do I make this thing?
 
 I, lazily, haven't made any documentation, but thankfully there is [this tutorial on youtube](https://www.youtube.com/watch?v=fBPu7AyDtkM) by Kyek.
+
+## Firmware
+
+The firmware can be found [with the Ferris  firmware as part of QMK](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ferris/sweep).
+
+Firmware for zmk and bluemicro_ble is called ["Cradio"](https://zmk.dev/docs/hardware/).
 
 ## Who made this?
 
