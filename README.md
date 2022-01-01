@@ -2,6 +2,13 @@
 
 ![](/gallery/sweep2-splash.jpg)
 
+<span>
+  <a href="https://discord.gg/czXcTXbsgU">
+    <img src="https://discordapp.com/api/guilds/669011382284451861/widget.png?style=shield">
+  </a>
+  <img src="https://img.shields.io/github/last-commit/davidphilipbarr/sweep">
+</span>
+
 ## What is sweep?
 
 Sweep is a version of the more fabulous [Ferris](https://github.com/pierrechevalier83/ferris) by [Pierre Chevalier](https://github.com/pierrechevalier83/) that uses a daughter board like a promicro, elite-c, bit-c, nice!nano etc. instead of using onboard components.
@@ -24,20 +31,23 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 * Sweep Half Swept - Half of a Sweep2 with double pro-micro footprint (letting you avoid having one daughter-board flipped upside-down)
 * Sweep Compact Low - The only version that supports Choc minis.
 
-## BOM
+## Components list
 
 To build a Sweep you will need:
 
+* 1x PCB Kit
 * 2x promicro compatible boards or 2 nice!nanos.
 * 34 switches of a compatible type (refer to the compatibility table)
 * 34 keycaps
-* 2x reset switches (optional)
+* 2x reset switches (optional; [B3U-1000P(M)](https://github.com/davidphilipbarr/Sweep/issues/20))
 * Some little rubber feet/bumpers
-* Optional (if supported) 2x power switches (MSK 12C02)
+* 2x power switches (optional if supported; MSK 12C02)
 
 ## How do I make this thing?
 
-I, lazily, haven't made any documentation, but thankfully there is [this tutorial on youtube](https://www.youtube.com/watch?v=fBPu7AyDtkM) by Kyek.
+<a href="https://www.youtube.com/watch?v=fBPu7AyDtkM" target="_blank">
+  <img src="https://gist.githubusercontent.com/duckyb/337340baa1f0c8bcc06fef7b3b57242b/raw/97e6e0748dd1b8a3fb54fac0a88e84e6b6e0e10a/build-guide-button.svg" height="44">
+</a>
 
 ## Firmware
 
@@ -47,8 +57,8 @@ Firmware for zmk and bluemicro_ble is called ["Cradio"](https://zmk.dev/docs/har
 
 ## Who made this?
 
-* Pierre Chevalier
-* David Barr
+* [Pierre Chevalier](https://github.com/pierrechevalier83)
+* [David Barr](https://github.com/davidphilipbarr)
 * [Ibnu Daru Aji](https://github.com/ibnuda/)
 * [Duccio](https://github.com/duckyb)
 
