@@ -211,7 +211,7 @@ U 1 1 6049D3FB
 P 6950 2150
 F 0 "U1" H 6950 3293 60  0000 C CNN
 F 1 "ProMicro-kbd" H 6950 3187 60  0000 C CNN
-F 2 "Promicro-Jumpers:ProMicro" H 6950 3081 60  0000 C CNN
+F 2 "Promicro-Jumpers:ProMicro_unrouted" H 6950 3081 60  0000 C CNN
 F 3 "" H 7050 1100 60  0000 C CNN
 	1    6950 2150
 	1    0    0    -1  
