@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 17)
+    (drawings 18)
     (tracks 0)
     (zones 0)
     (modules 26)
@@ -2875,6 +2875,9 @@
       (xy 1.415662 8.375391)) (layer B.Mask) (width 0.01))
   )
 
+  (gr_text v0.1α (at 44.6405 65.8495) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_arc (start 145.9484 123.520494) (end 146.837399 124.155493) (angle -125.5376778) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 131.445 121.412) (end 131.445 122.412) (angle 90) (layer Edge.Cuts) (width 0.05) (tstamp 61E43670))
   (gr_line (start 131.445 122.412) (end 145.9484 122.428) (layer Edge.Cuts) (width 0.05))

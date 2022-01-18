@@ -30,7 +30,7 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user)
-    (49 F.Fab user hide)
+    (49 F.Fab user)
   )
 
   (setup
@@ -107,7 +107,7 @@
     (fp_text reference mouse-bite-5mm-slot (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+    (fp_text value "Mouse Bite 2" (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_circle (center 0 -2.921) (end 0.06 -2.921) (layer Dwgs.User) (width 0.05))
@@ -136,7 +136,7 @@
     (fp_text reference mouse-bite-5mm-slot (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value VAL** (at 0 0 90) (layer F.SilkS) hide
+    (fp_text value "Mouse Bite 3" (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_circle (center 0 -2.921) (end 0.06 -2.921) (layer Dwgs.User) (width 0.05))
@@ -165,7 +165,7 @@
     (fp_text reference mouse-bite-5mm-slot (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+    (fp_text value "Mouse Bite 4" (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_circle (center 0 -2.921) (end 0.06 -2.921) (layer Dwgs.User) (width 0.05))
@@ -194,7 +194,7 @@
     (fp_text reference mouse-bite-5mm-slot (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value VAL** (at 0 0 90) (layer F.SilkS) hide
+    (fp_text value "Mouse Bite 1" (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -1.27 2.54) (end -1.27 -2.54) (layer Dwgs.User) (width 0.06))
@@ -362,7 +362,7 @@
   (gr_line (start 131.458 81.868917) (end 148.162 81.866) (layer Edge.Cuts) (width 0.05) (tstamp 608AAEBB))
   (gr_arc (start 148.162 82.616) (end 148.912 82.616) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 608AAEAF))
 
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 61E6EFB0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -651,7 +651,7 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 61E44C13) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 61E6EFAD) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
