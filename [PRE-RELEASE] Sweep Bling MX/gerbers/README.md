@@ -7,6 +7,7 @@
 - 1x PCB Kit
 - 2x promicro compatible boards or nice!nanos
 - 34 MX switches
+- 34 Kailh hotswap sockets
 - 34 keycaps
 
 ### Optional:
