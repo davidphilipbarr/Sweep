@@ -37,7 +37,7 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 
 ## Components list
 
-To build a Sweep you will need:
+To build and use a Sweep you will need:
 
 * 1x PCB Kit
 * 2x promicro compatible boards or 2 nice!nanos.
@@ -46,6 +46,9 @@ To build a Sweep you will need:
 * 2x reset switches (optional; [B3U-1000P(M)](https://github.com/davidphilipbarr/Sweep/issues/20))
 * Some little rubber feet/bumpers
 * 2x power switches (optional if supported; MSK 12C02)
+* 1x TRRS (not TRS!) cable (wired build only)
+* 2x TRRS Jack [PJ-320A] (wired build only)
+* 1 USB Cable (depends on your micro-controller choice)
 
 ## How do I make this thing?
 
