@@ -62,6 +62,12 @@ The firmware can be found [with the Ferris  firmware as part of QMK](https://git
 
 Firmware for zmk and bluemicro_ble is called ["Cradio"](https://zmk.dev/docs/hardware/).
 
+## Keyboard Layout
+
+Here is the link to the Sweep layout for the [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/c921f16f09124939db46fc301bf06096).
+
+Default is [Miryoku](https://github.com/manna-harbour/miryoku) inspired, the default is there to be replaced. You could use this as a base to create and save your own layout version.
+
 ## Who made this?
 
 * [Pierre Chevalier](https://github.com/pierrechevalier83)
