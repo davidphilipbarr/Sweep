@@ -6069,7 +6069,7 @@
   (gr_text GND (at 135.4455 87.6935) (layer B.SilkS) (tstamp 61E690DA)
     (effects (font (size 0.6 0.6) (thickness 0.12)) (justify right mirror))
   )
-  (gr_text v0.1α (at 44.704 67.691) (layer F.SilkS)
+  (gr_text v1.0 (at 44.704 67.691) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text GND (at 144.399 87.757) (layer F.SilkS) (tstamp 61E4FBF8)

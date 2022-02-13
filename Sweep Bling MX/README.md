@@ -1,8 +1,3 @@
-# <span style="color: #FFC400; font-weight: 600"> ⚠ WARNING! PRE-RELEASE!  ⚠</span>
-## This device is currently in pre-release phase. <br> As such, it has not yet been tested and subject to changes. <br> Please keep this in mind if you wish to build it.
-
-After being reported as functional it will receive a new stable release.
-
 # Sweep Bling MX
 ![](/gallery/sweep-bling-mx.jpg)
 
