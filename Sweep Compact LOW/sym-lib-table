@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name corne-light-rescue)(type Legacy)(uri ${KIPRJMOD}/corne-light-rescue.lib)(options "")(descr ""))
-  (lib (name sweep-rescue)(type Legacy)(uri ${KIPRJMOD}/sweep-rescue.lib)(options "")(descr ""))
-)
