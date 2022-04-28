@@ -6,7 +6,7 @@ The idea of the sweep is provide a minimal, easy to build, cheap but fleixible k
 
 Aesthetics:
 -----------
-The sweep is, of course, based on the [ferris](https://github.com/pierrechevalier83/ferris), which is in essence a very minimal [Kyria]. The sweep tries to remove the need to SMD soldering or parts by usuing a controller, which hopefullly does not change the aethetics too much of the Ferris, and in many way is a call back to the Kyria itself.
+The sweep is, of course, based on the [ferris](https://github.com/pierrechevalier83/ferris), which design is in essence a very minimal [Kyria](https://splitkb.com/products/kyria-pcb-kit. The sweep tries to remove the need to SMD soldering or parts by usuing a controller, which hopefullly does not change the aethetics too much of the Ferris, and in many way is a call back to the Kyria itself.
 
 
 Flexibility:
