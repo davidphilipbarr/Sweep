@@ -1,0 +1,49 @@
+
+Philosophy:
+-----------
+The idea of the sweep is provide a minimal, easy to build, cheap but fleixible keyboard. This is acheived, in part, by using the minimum amout of parts and require the minimum amount of soldering possible.
+
+
+Aesthetics:
+-----------
+The sweep is, of course, based on the [ferris](https://github.com/pierrechevalier83/ferris), which is in essence a very minimal [Kyria]. The sweep tries to remove the need to SMD soldering or parts by usuing a controller, which hopefullly does not change the aethetics too much of the Ferris, and in many way is a call back to the Kyria itself.
+
+
+Flexibility:
+------------
+One of the advantages of usuing a controller is the options you can open up by usuing different controllers.
+In the sweep's case the two main types are wired or bluetooth. Within the wired camp there are also options such as arm controllers, atmega controllers, usbc, usb micro connectors and so on. 
+The sweep comes with a footprint to optionally attach a power switch if usuing a bluetooth controller, but it is not required. 
+There is also a footprint to attach a splitkb puck if you wanted to try and angle your keyboard. 
+
+Ease of assembly:
+-----------------
+Using no diodes and having minimal features makes the sweep as easy to build as possible.
+
+
+Low-Cost:
+---------
+The parts to build the sweep should be widley available and at various price points, depending on how you build it. 
+A Promicro with usb micro should be the cheapest controller that will work, but many usbc options are available. 
+Switches and keycaps will always be the most expensive and keycaps vary wildly in price depending on material and availability.
+
+
+Low-Profile:
+------------
+All the components are top-mounted and low profile. The highest point on the keyboard should be at the tip of the Kailh choc switches, which sticks 6mm above the pcb, plus the added height of the chosen keycaps.
+There are only solder joints on the bottom, so even with pads to protect the surface on which the keyboard rests, the entire board should be under 1cm thick. (<- taken from the ferris docs)
+
+
+Widley Available Firmware:
+-------------------------
+The sweep has firmware available for QMK, ZMK and Bluemicro. 
+
+
+Hackable:
+---------
+The whole thing is open source allowing any tweaks and alterations to be made. 
+
+Non-Goals:
+----------
+* Hot-Swap support
+* Support for any additional features (RGB, OLED, encoders).
