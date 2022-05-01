@@ -9,7 +9,7 @@ To order the PCB the following settings are recommended<sup>1,2</sup>:
 
 |Detail|Value|
 |---|---|
-|Gerber file|`sweepv2.1_gerber.zip`|
+|Gerber file|`sweepv2.X_gerber.zip`|
 |Base material|FR-4|
 |Layers|2|
 |Dimension|216.9mm x 86.9mm|
