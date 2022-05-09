@@ -16,7 +16,7 @@ To order the PCB the following settings are recommended<sup>1,2</sup>:
 |Gerber file|`sweep_bling_mx_gerber.zip`|
 |Base material|FR-4|
 |Layers|2|
-|Dimension|95.15mm x 229.54mm|
+|Dimension|95.15mm x 113.47mm|
 |Different design|1|
 |Delivery format|Single PCB|
 |PCB thickness|1.6mm|
