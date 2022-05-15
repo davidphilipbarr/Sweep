@@ -15,18 +15,22 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 
 ## What are the different types?
 
-| Device | Bluetooth Support<sup>[1]</sup> | On/Off Switch | Reversible PCB | Choc V1 | Choc V2 | Choc Mini | MX & Alps | Choc Spacing<sup>[2]</sup> | Tenting<sup>[3]</sup> |
+| Device | On/Off Switch<sup>[1]</sup> | Reversible PCB<sup>[2]</sup> | Choc V1 | Choc V2 | Choc Mini | MX & Alps | Choc Spacing<sup>[3]</sup> | Tenting<sup>[4]</sup> | Hot Swap |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Sweep2.x          | ✔ | ✔ |   | ✔ |   |   |   | ✔ | ✔ |
-| Sweep Bling MX    | ✔ | ✔ | ✔ |   |   |   | ⚠<sup>[4]</sup> |   | ✔ |
-| Sweep High        | ✔ | ✔ |   | ✔ | ✔ |   | ✔ |   | ✔ |
-| Sweep Half Swept  | ✔ | ✔ | ✔ | ✔ |   |   |   | ✔ | ✔ |
-| Sweep Compact Low | ✔ |   | ✔ |   |   | ✔ |   | ✔ |   |
+| Sweep2.x          | ✔ |   | ✔ |   |   |   | ✔ | ✔ | Mill-Max (optional) |
+| Sweep Bling LP    | ✔ |   | ✔ |   |   |   | ✔ | ✔ | Kailh (required) |
+| Sweep Bling MX    | ✔ | ✔ |   |   |   | ⚠<br/><sup>[5]</sup> |   | ✔ | Kailh (required) |
+| Sweep High        | ✔ |   | ✔ | ✔ |   | ✔ |   | ✔ |
+| Sweep Half Swept  | ✔ | ✔ | ✔ |   |   |   | ✔ | ✔ |
+| Sweep Compact Low |   | ✔ |   |   | ✔ |   | ✔ |   |
 
-*<sup>[1]</sup> It simply means that it supports the nice!nano. An on/off switch is recommended for bluetooth*  
-*<sup>[2]</sup> Choc spaced boards have the switches in a tighter grid. This provides a better final look but is only compatible with some choc keycaps (e.g. MBK)*  
-*<sup>[3]</sup> Supports splitkb's [tenting puck](https://splitkb.com/products/tenting-puck?_pos=1&_psq=tenting%20&_ss=e&_v=1.0)*  
-*<sup>[4]</sup> MX + kailh hotswap ONLY. Alps are NOT supported*  
+> Note: All versions support bluetooth with Nice!Nano
+
+*<sup>[1]</sup> An on/off switch is recommended for bluetooth builds.*  
+*<sup>[2]</sup> With a reversible PCB it's easier to make mistakes during assembly, but it allows you to purchase less boards.*  
+*<sup>[3]</sup> Choc spaced boards have the switches in a tighter grid. This provides a better final look but is only compatible with some choc keycaps. (e.g. MBK)*  
+*<sup>[4]</sup> Supports splitkb's [tenting puck.](https://splitkb.com/products/tenting-puck?_pos=1&_psq=tenting%20&_ss=e&_v=1.0)*  
+*<sup>[5]</sup> MX + kailh hotswap ONLY. Alps are NOT supported.*  
 
 
 * Sweep2 - Recommended Choc v1 board with all the features.
@@ -68,4 +72,3 @@ Firmware for zmk and bluemicro_ble is called ["Cradio"](https://zmk.dev/docs/har
 * [David Barr](https://github.com/davidphilipbarr)
 * [Ibnu Daru Aji](https://github.com/ibnuda/)
 * [Duccio](https://github.com/duckyb)
-
