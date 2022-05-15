@@ -1,7 +1,7 @@
-# Sweep2
-![](/gallery/sweep-2.1.jpg)
+# Sweep Bling LP
+![](/gallery/sweep-bling-lp.png)
 
-This is the main Choc v1 board we all know and love.
+This is a kailh hotswap version of the Sweep v2.
 
 ## Ordering The PCB
 
@@ -9,7 +9,7 @@ To order the PCB the following settings are recommended<sup>1,2</sup>:
 
 |Detail|Value|
 |---|---|
-|Gerber file|`sweepv2.X_gerber.zip`|
+|Gerber file|`sweepbling-lp__pcb-gerber.zip`|
 |Base material|FR-4|
 |Layers|2|
 |Dimension|216.9mm x 86.9mm|
