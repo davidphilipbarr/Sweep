@@ -1,0 +1,65 @@
+on: [workflow_dispatch]
+
+name: Render Previews
+jobs:
+  pngs:
+    runs-on: ubuntu-latest
+    name: "Export as PNGs"
+    steps:
+      # CHECKOUT
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # PREVIEWS
+      - name: Sweep v2
+        uses: ./.github/actions/export-pngs
+        with:
+          pcb_file: ./Sweepv2.2/sweepv2.kicad_pcb
+          pngs_dir: output/pngs/sweepv2
+      - name: Sweep Half Swept
+        uses: ./.github/actions/export-pngs
+        with:
+          pcb_file: ./Sweep-half-swept/half-swept.kicad_pcb
+          pngs_dir: output/pngs/sweep-half-swept
+      - name: Sweep High M
+        uses: ./.github/actions/export-pngs
+        with:
+          pcb_file: '"./Sweep High M/sweep-high.kicad_pcb"'
+          pngs_dir: output/pngs/sweep-high-m
+      - name: Sweep High
+        uses: ./.github/actions/export-pngs
+        with:
+          pcb_file: '"./Sweep High/sweep-high.kicad_pcb"'
+          pngs_dir: output/pngs/sweep-high
+      - name: Sweep Compact LOW
+        uses: ./.github/actions/export-pngs
+        with:
+          pcb_file: '"./Sweep Compact LOW/ferris-sweep-compact.kicad_pcb"'
+          pngs_dir: output/pngs/sweep-compact-low
+      - name: Sweep Bling MX
+        uses: ./.github/actions/export-pngs
+        with:
+          pcb_file: '"./Sweep Bling MX/pcb/sweep-bling-mx__pcb.kicad_pcb"'
+          pngs_dir: output/pngs/sweep-bling-mx
+      - name: Sweep Bling MX (plate)
+        uses: ./.github/actions/export-pngs
+        with:
+          pcb_file: '"./Sweep Bling MX/switch-plate/sweep-bling-mx__plate.kicad_pcb"'
+          pngs_dir: output/pngs/sweep-bling-mx-plate
+      - name: Sweep Bling MX (bottom)
+        uses: ./.github/actions/export-pngs
+        with:
+          pcb_file: '"./Sweep Bling MX/bottom-plate/sweep-bling-mx__bottom.kicad_pcb"'
+          pngs_dir: output/pngs/sweep-bling-mx-bottom
+      - name: Sweep Bling LP
+        uses: ./.github/actions/export-pngs
+        with:
+          pcb_file: '"./Sweep Bling LP/pcb/sweepbling-lp__pcb.kicad_pcb"'
+          pngs_dir: output/pngs/sweep-bling-lp
+
+      # UPLOADING
+      - name: Upload files
+        uses: actions/upload-artifact@v2
+        with:
+          name: previews
+          path: output/pngs

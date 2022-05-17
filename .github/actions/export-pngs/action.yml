@@ -1,0 +1,24 @@
+name: 'Export PNGs'
+description: 'Export PNG files from a Kicad PCB'
+inputs:
+  pcb_file:
+    description: 'Kicad input file'
+    required: true
+  pngs_dir:
+    description: 'PNGs folder'
+    required: true
+  theme:
+    default: '-s set-black-enig'
+  # flags:
+  #   description: 'Additional flags for pcbdraw'
+  #   default: ''
+runs:
+  using: 'docker'
+  image: 'docker://yaqwsx/kikit:v1.0.2'
+  entrypoint: '/bin/sh'
+  args:
+    - '-c'
+    - |
+      mkdir -p $GITHUB_WORKSPACE/${{ inputs.pngs_dir }} ;
+      pcbdraw ${{ inputs.theme }} --silent $GITHUB_WORKSPACE/${{ inputs.pcb_file }} $GITHUB_WORKSPACE/${{ inputs.pngs_dir }}/front.png
+      pcbdraw --back ${{ inputs.theme }} --silent $GITHUB_WORKSPACE/${{ inputs.pcb_file }} $GITHUB_WORKSPACE/${{ inputs.pngs_dir }}/back.png
