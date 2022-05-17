@@ -1,5 +1,6 @@
 # Sweep HIGH
-![](/gallery/sweep-high.jpg)
+![front](/gallery/sweep-high/front.png)
+![back](/gallery/sweep-high/back.png)
 
 Same as the Sweep2 but trades choc spacing for compatibility with more switches and keycaps.
 

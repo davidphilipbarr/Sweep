@@ -1,8 +1,8 @@
 # Sweep
 
-| Bottom | Top |
+| Front | Back |
 | :---: | :---: |
-| ![front](https://user-images.githubusercontent.com/27895007/168923195-4e6bb5d4-2139-415f-8f49-f18885a45606.png) | ![back](https://user-images.githubusercontent.com/27895007/168923210-6e2f0905-4098-4852-86c4-96b7d9850ad8.png) |
+| ![front](/gallery/sweep-half-swept/front.png) | ![back](/gallery/sweep-half-swept/back.png) |
 
 <span>
   <a href="https://discord.gg/czXcTXbsgU">

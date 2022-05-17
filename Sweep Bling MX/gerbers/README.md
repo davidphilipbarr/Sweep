@@ -1,7 +1,3 @@
-| Bottom plate | PCB | Switch Plate |
-| --- | --- | --- |
-| ![](../../gallery/renders/bling-mx_bottom.jpg) | ![](../../gallery/renders/bling-mx_pcb.jpg) | ![](../../gallery/renders/bling-mx_plate.jpg) |
-
 # Notes:
 
 - **DRILL TIME FEE**: When ordering PCBs with complex shapes like the switch plate and bottom plate, it is possible that the factory will ask for additional fees.

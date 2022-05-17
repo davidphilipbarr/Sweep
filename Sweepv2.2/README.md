@@ -1,5 +1,6 @@
 # Sweep2
-![](/gallery/sweep-2.1.jpg)
+![](/gallery/sweepv2/front.png)
+![](/gallery/sweepv2/back.png)
 
 This is the main Choc v1 board we all know and love.
 

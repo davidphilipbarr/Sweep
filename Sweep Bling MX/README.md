@@ -1,5 +1,9 @@
 # Sweep Bling MX
-![](/gallery/sweep-bling-mx.jpg)
+| Front | Back |
+| :---: | :---: |
+| ![front](/gallery/sweep-bling-mx/front.png) | ![back](/gallery/sweep-bling-mx/back.png) |
+| ![front](/gallery/sweep-bling-mx-plate/front.png) | ![back](/gallery/sweep-bling-mx-plate/back.png) |
+| ![front](/gallery/sweep-bling-mx-bottom/front.png) | ![back](/gallery/sweep-bling-mx-bottom/back.png) |
 
 This version of the Sweep features MX Switches support (exclusively) with hotswap sockets. As well as tenting support.
 

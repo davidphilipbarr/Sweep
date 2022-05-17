@@ -1,5 +1,6 @@
 # Sweep Bling LP
-![](/gallery/sweep-bling-lp.png)
+![front](/gallery/sweep-bling-lp/front.png)
+![back](/gallery/sweep-bling-lp/back.png) |
 
 This is a kailh hotswap version of the Sweep v2.
 
