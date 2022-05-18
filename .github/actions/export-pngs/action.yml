@@ -8,7 +8,7 @@ inputs:
     description: 'PNGs folder'
     required: true
   theme:
-    default: '-s set-black-enig'
+    default: '-s set-blue-enig'
   # flags:
   #   description: 'Additional flags for pcbdraw'
   #   default: ''
