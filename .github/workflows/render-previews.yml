@@ -1,4 +1,10 @@
-on: [workflow_dispatch]
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.kicad_pcb"
 
 name: Render Previews
 jobs:
@@ -15,51 +21,52 @@ jobs:
         uses: ./.github/actions/export-pngs
         with:
           pcb_file: ./Sweepv2.2/sweepv2.kicad_pcb
-          pngs_dir: output/pngs/sweepv2
+          pngs_dir: ./gallery/sweepv2
       - name: Sweep Half Swept
         uses: ./.github/actions/export-pngs
         with:
           pcb_file: ./Sweep-half-swept/half-swept.kicad_pcb
-          pngs_dir: output/pngs/sweep-half-swept
+          pngs_dir: ./gallery/sweep-half-swept
       - name: Sweep High M
         uses: ./.github/actions/export-pngs
         with:
           pcb_file: '"./Sweep High M/sweep-high.kicad_pcb"'
-          pngs_dir: output/pngs/sweep-high-m
+          pngs_dir: ./gallery/sweep-high-m
       - name: Sweep High
         uses: ./.github/actions/export-pngs
         with:
           pcb_file: '"./Sweep High/sweep-high.kicad_pcb"'
-          pngs_dir: output/pngs/sweep-high
+          pngs_dir: ./gallery/sweep-high
       - name: Sweep Compact LOW
         uses: ./.github/actions/export-pngs
         with:
           pcb_file: '"./Sweep Compact LOW/ferris-sweep-compact.kicad_pcb"'
-          pngs_dir: output/pngs/sweep-compact-low
+          pngs_dir: ./gallery/sweep-compact-low
       - name: Sweep Bling MX
         uses: ./.github/actions/export-pngs
         with:
           pcb_file: '"./Sweep Bling MX/pcb/sweep-bling-mx__pcb.kicad_pcb"'
-          pngs_dir: output/pngs/sweep-bling-mx
+          pngs_dir: ./gallery/sweep-bling-mx
       - name: Sweep Bling MX (plate)
         uses: ./.github/actions/export-pngs
         with:
           pcb_file: '"./Sweep Bling MX/switch-plate/sweep-bling-mx__plate.kicad_pcb"'
-          pngs_dir: output/pngs/sweep-bling-mx-plate
+          pngs_dir: ./gallery/sweep-bling-mx-plate
       - name: Sweep Bling MX (bottom)
         uses: ./.github/actions/export-pngs
         with:
           pcb_file: '"./Sweep Bling MX/bottom-plate/sweep-bling-mx__bottom.kicad_pcb"'
-          pngs_dir: output/pngs/sweep-bling-mx-bottom
+          pngs_dir: ./gallery/sweep-bling-mx-bottom
       - name: Sweep Bling LP
         uses: ./.github/actions/export-pngs
         with:
           pcb_file: '"./Sweep Bling LP/pcb/sweepbling-lp__pcb.kicad_pcb"'
-          pngs_dir: output/pngs/sweep-bling-lp
+          pngs_dir: ./gallery/sweep-bling-lp
 
-      # UPLOADING
-      - name: Upload files
-        uses: actions/upload-artifact@v2
+      # UPDATE GALLERY
+      - name: Update gallery
+        uses: stefanzweifel/git-auto-commit-action@v4.14.1
         with:
-          name: previews
-          path: output/pngs
+          commit_message: "Update gallery (automated)"
+          commit_user_name: GitHub Actions Bot
+          file_pattern: "**/*.png"
