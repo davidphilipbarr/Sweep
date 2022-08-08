@@ -23,7 +23,7 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 | Sweep Bling LP    | ✔ |   | ✔ |   |   |   | ✔ | ✔ | Kailh (required) |
 | Sweep Bling MX    | ✔ | ✔ |   |   |   | ⚠<br/><sup>[5]</sup> |   | ✔ | Kailh (required) |
 | Sweep High        | ✔ |   | ✔ | ✔ |   | ✔ |   | ✔ |
-| Sweep Half Swept  | ✔ | ✔ | ✔ |   |   |   | ✔ | ✔ |
+| Sweep Half Swept  | ✔ | ✔ | ✔ |   |   |   | ✔ | ✔ | Mill-Max (optional) |
 | Sweep Compact Low |   | ✔ |   |   | ✔ |   | ✔ |   |
 
 > Note: All versions support bluetooth with Nice!Nano
