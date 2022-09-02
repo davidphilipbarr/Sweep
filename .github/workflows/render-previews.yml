@@ -20,12 +20,12 @@ jobs:
       - name: Sweep v2
         uses: ./.github/actions/export-pngs
         with:
-          pcb_file: ./Sweepv2.2/sweepv2.kicad_pcb
+          pcb_file: '"./Sweep v2.2/sweepv2.kicad_pcb"'
           pngs_dir: ./gallery/sweepv2
       - name: Sweep Half Swept
         uses: ./.github/actions/export-pngs
         with:
-          pcb_file: ./Sweep-half-swept/half-swept.kicad_pcb
+          pcb_file: '"./Sweep half-swept/half-swept.kicad_pcb"'
           pngs_dir: ./gallery/sweep-half-swept
       - name: Sweep High M
         uses: ./.github/actions/export-pngs
@@ -37,11 +37,11 @@ jobs:
         with:
           pcb_file: '"./Sweep High/sweep-high.kicad_pcb"'
           pngs_dir: ./gallery/sweep-high
-      - name: Sweep Compact LOW
+      - name: Sweep Mini
         uses: ./.github/actions/export-pngs
         with:
-          pcb_file: '"./Sweep Compact LOW/ferris-sweep-compact.kicad_pcb"'
-          pngs_dir: ./gallery/sweep-compact-low
+          pcb_file: '"./Sweep Mini/sweep-mini.kicad_pcb"'
+          pngs_dir: ./gallery/sweep-mini
       - name: Sweep Bling MX
         uses: ./.github/actions/export-pngs
         with:

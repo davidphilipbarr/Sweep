@@ -24,7 +24,7 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 | Sweep Bling MX    | ✔ | ✔ |   |   |   | ⚠<br/><sup>[5]</sup> |   | ✔ | Kailh (required) |
 | Sweep High        | ✔ |   | ✔ | ✔ |   | ✔ |   | ✔ |
 | Sweep Half Swept  | ✔ | ✔ | ✔ |   |   |   | ✔ | ✔ | Mill-Max (optional) |
-| Sweep Compact Low |   | ✔ |   |   | ✔ |   | ✔ |   |
+| Sweep Mini        |   | ✔ |   |   | ✔ |   | ✔ |   |
 
 > Note: All versions support bluetooth with Nice!Nano
 
@@ -39,7 +39,7 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 * Sweep Bling MX - An MX only Sweep that features Kailh's hotswap sockets and a stacked case.
 * Sweep High - Same as the Sweep2 but trades choc spacing for compatibility with more switches and keycaps.
 * Sweep Half Swept - Half of a Sweep2 with double pro-micro footprint (letting you avoid having one daughter-board flipped upside-down)
-* Sweep Compact Low - The only version that supports Choc minis.
+* Sweep Mini - The only version that supports Choc minis.
 
 ## Components list
 
