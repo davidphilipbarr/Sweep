@@ -9,6 +9,8 @@
     <img src="https://discordapp.com/api/guilds/669011382284451861/widget.png?style=shield">
   </a>
   <img src="https://img.shields.io/github/last-commit/davidphilipbarr/sweep">
+  <img src="https://img.shields.io/github/v/release/davidphilipbarr/sweep?include_prereleases&color=success">
+  <img src="https://img.shields.io/static/v1?label=license&message=SHL-2.1&color=success">
 </span>
 
 ## What is sweep?
@@ -17,12 +19,21 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 
 ## What are the different types?
 
+⭐ Sweep 2 - Recommended Choc v1 board with all the features.  
+⭕ Sweep Half Swept - Same as Sweep 2, but with a reversible pro-micro footprint.  
+⭕ Sweep Bling MX - An MX only Sweep that features Kailh's hotswap sockets and a stacked case.  
+⭕ Sweep Bling LP - A Choc v1 only Sweep that features Kailh's hotswap sockets.  
+⭕ Sweep High - Same as the Sweep 2, but trades choc spacing for compatibility with more switches and keycaps.  
+⭕ Sweep High M - A soldered MX only Sweep, with a reversible PCB design.  
+⭕ Sweep Mini - The only version that supports Choc minis.  
+
 | Device | On/Off Switch<sup>[1]</sup> | Reversible PCB<sup>[2]</sup> | Choc V1 | Choc V2 | Choc Mini | MX & Alps | Choc Spacing<sup>[3]</sup> | Tenting<sup>[4]</sup> | Hot Swap |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Sweep2.x          | ✔ |   | ✔ |   |   |   | ✔ | ✔ | Mill-Max (optional) |
 | Sweep Bling LP    | ✔ |   | ✔ |   |   |   | ✔ | ✔ | Kailh (required) |
 | Sweep Bling MX    | ✔ | ✔ |   |   |   | ⚠<br/><sup>[5]</sup> |   | ✔ | Kailh (required) |
 | Sweep High        | ✔ |   | ✔ | ✔ |   | ✔ |   | ✔ |
+| Sweep High M      | ✔ | ✔ |   |   |   | MX |   | ✔ |   |
 | Sweep Half Swept  | ✔ | ✔ | ✔ |   |   |   | ✔ | ✔ | Mill-Max (optional) |
 | Sweep Mini        |   | ✔ |   |   | ✔ |   | ✔ |   |
 
@@ -33,13 +44,6 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 *<sup>[3]</sup> Choc spaced boards have the switches in a tighter grid. This provides a better final look but is only compatible with some choc keycaps. (e.g. MBK)*  
 *<sup>[4]</sup> Supports splitkb's [tenting puck.](https://splitkb.com/products/tenting-puck?_pos=1&_psq=tenting%20&_ss=e&_v=1.0)*  
 *<sup>[5]</sup> MX + kailh hotswap ONLY. Alps are NOT supported.*  
-
-
-* Sweep2 - Recommended Choc v1 board with all the features.
-* Sweep Bling MX - An MX only Sweep that features Kailh's hotswap sockets and a stacked case.
-* Sweep High - Same as the Sweep2 but trades choc spacing for compatibility with more switches and keycaps.
-* Sweep Half Swept - Half of a Sweep2 with double pro-micro footprint (letting you avoid having one daughter-board flipped upside-down)
-* Sweep Mini - The only version that supports Choc minis.
 
 ## Components list
 
