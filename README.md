@@ -12,7 +12,7 @@
                |   |   |    |   |   |
                `___`___`    `___`___`
 -->
-> ![sweep-hero](https://github.com/davidphilipbarr/Sweep/assets/27895007/ab90c26a-f22c-4860-8f7b-edec529c50f8)  
+>  ![sweep-hero](https://github.com/davidphilipbarr/Sweep/assets/27895007/97e13cdc-b84b-4545-8e09-139a4bb935e5)  
 > <sub>Bluetooth Sweep 2 + MBK Legend Keycaps</sub>
 
 <span>
