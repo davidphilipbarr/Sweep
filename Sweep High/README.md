@@ -15,7 +15,7 @@ To order the PCB the following settings are recommended<sup>1,2</sup>:
 |Layers|2|
 |Dimension|95.15mm x 229.54mm|
 |Different design|2|
-|Delivery format|Panel by customer|
+|Delivery format|Single PCB|
 |PCB thickness|1.6mm|
 |PCB color|(Personal preference)|
 |Silkscreen|(Personal preference)|
