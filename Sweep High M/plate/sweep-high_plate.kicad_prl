@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 44,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -66,10 +66,10 @@
       40
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
-    "filename": "sweep-high.kicad_prl",
+    "filename": "sweep-high_plate.kicad_prl",
     "version": 3
   },
   "project": {
