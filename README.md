@@ -37,16 +37,18 @@ Sweep is a version of the more fabulous [Ferris](https://github.com/pierrecheval
 ⭕ Sweep High - Same as the Sweep 2, but trades choc spacing for compatibility with more switches and keycaps.  
 ⭕ Sweep High M - A soldered MX only Sweep, with a reversible PCB design.  
 ⭕ Sweep Mini - The only version that supports Choc minis.  
+⭕ Sweep ULP - A version for the Cherry Ultra low profile switches.  
 
-| Device | On/Off Switch<sup>[1]</sup> | Reversible PCB<sup>[2]</sup> | Choc V1 | Choc V2 | Choc Mini | MX & Alps | Choc Spacing<sup>[3]</sup> | Tenting<sup>[4]</sup> | Hot Swap |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Sweep2.x          | ✔ |   | ✔ |   |   |   | ✔ | ✔ | Mill-Max (optional) |
-| Sweep Bling LP    | ✔ |   | ✔ |   |   |   | ✔ | ✔ | Kailh (required) |
-| Sweep Bling MX    | ✔ | ✔ |   |   |   | ⚠<br/><sup>[5]</sup> |   | ✔ | Kailh (required) |
-| Sweep High        | ✔ |   | ✔ | ✔ |   | ✔ |   | ✔ |
-| Sweep High M      | ✔ | ✔ |   |   |   | MX |   | ✔ |   |
-| Sweep Half Swept  | ✔ | ✔ | ✔ |   |   |   | ✔ | ✔ | Mill-Max (optional) |
-| Sweep Mini        |   | ✔ |   |   | ✔ |   | ✔ |   |
+| Device | On/Off Switch<sup>[1]</sup> | Reversible PCB<sup>[2]</sup> | Choc V1 | Choc V2 | Choc Mini | MX & Alps | Cherry ULP | Choc Spacing<sup>[3]</sup> | Tenting<sup>[4]</sup> | Hot Swap |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Sweep2.x          | ✔ |   | ✔ |   |   |   |   | ✔ | ✔ | Mill-Max (optional) |
+| Sweep Bling LP    | ✔ |   | ✔ |   |   |   |   | ✔ | ✔ | Kailh (required) |
+| Sweep Bling MX    | ✔ | ✔ |   |   |   | ⚠<br/><sup>[5]</sup> |   |   | ✔ | Kailh (required) |
+| Sweep High        | ✔ |   | ✔ | ✔ |   | ✔ |   |   | ✔ |
+| Sweep High M      | ✔ | ✔ |   |   |   | MX|   |   | ✔ |   |
+| Sweep Half Swept  | ✔ | ✔ | ✔ |   |   |   |   | ✔ | ✔ | Mill-Max (optional) |
+| Sweep Mini        |   | ✔ |   |   | ✔ |   |   | ✔ |   |
+| Sweep ULP         | ✔ |   |   |   |   |   | ✔ | ✔ |   |
 
 > Note: All versions support bluetooth with Nice!Nano
 
